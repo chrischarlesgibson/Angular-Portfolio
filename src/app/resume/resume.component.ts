@@ -33,7 +33,7 @@ const skills = [
 })
 export class ResumeComponent {
   public skills: string[] = skills;
-  resumeImage = '../../assets/images/resumeImage.png';
-  resumePDF = '../../assets/images/chrisGibsonResume.pdf';
+  resumeImage = 'assets/images/resumeImage.png';
+  resumePDF = 'assets/images/chrisGibsonResume.pdf';
   constructor() {}
 }

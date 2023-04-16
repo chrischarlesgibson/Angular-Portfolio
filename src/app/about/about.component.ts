@@ -14,4 +14,5 @@ export class AboutComponent {
   faGithub = faGithub;
   faLinkedin = faLinkedin;
   faMedium = faMedium;
+  headshot = 'assests/images/headshot.png';
 }
