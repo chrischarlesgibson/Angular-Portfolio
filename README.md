@@ -4,9 +4,9 @@
 
 ## Description
 
-Welcome to my portfolio repository.... Click on the link below to check out my portfolio page on Github pages! It is built using Angular,TypeScript and Angular Material among others. The purpose of this project to practive Typescript and Angular.
+Welcome to my portfolio repository.... Click on the link below to check out my portfolio page on Github pages! It is built using Angular,TypeScript and Angular Material among others. The purpose of this project to practice Typescript and Angular. There are only 6 commits becuase I had done all the work in my repository called angular-portfolio-commits and had to make a new repo because I did not set up it correctly to deploy to gh-pages so decided it was easier to make a new repo.
 
-[link to my porfolio on Github pages](https://chrischarlesgibson.github.io/TypeScript-Angular-Portfolio/)
+[link to my porfolio on Github pages](https://chrischarlesgibson.github.io/angular-portfolio/)
 
 ![pic of app in action](./src/assets/images/screenshotWebsite.png)
 
@@ -25,42 +25,40 @@ Welcome to my portfolio repository.... Click on the link below to check out my p
 Here are the dependencies and scripts needed to run this app locally:
 
 ```
-  "scripts": {
+
+ "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^15.2.0",
-    "@angular/cdk": "^15.2.5",
+    "@angular/animations": "^15.2.7",
+    "@angular/cdk": "^15.2.7",
     "@angular/common": "^15.2.0",
     "@angular/compiler": "^15.2.0",
     "@angular/core": "^15.2.0",
     "@angular/flex-layout": "^15.0.0-beta.42",
     "@angular/forms": "^15.2.0",
-    "@angular/material": "^15.2.5",
+    "@angular/material": "^15.2.7",
     "@angular/platform-browser": "^15.2.0",
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
+    "@emailjs/browser": "^3.10.0",
     "@fortawesome/angular-fontawesome": "^0.12.1",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "gh-pages": "^5.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^15.2.4",
-    "@angular/cli": "~15.2.4",
+    "@angular-devkit/build-angular": "^15.2.6",
+    "@angular/cli": "~15.2.6",
     "@angular/compiler-cli": "^15.2.0",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.5.0",
@@ -71,7 +69,7 @@ Here are the dependencies and scripts needed to run this app locally:
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.9.4"
   }
-
+}
 
 ```
 
