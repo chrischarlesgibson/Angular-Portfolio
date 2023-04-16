@@ -44,16 +44,6 @@
   color: black;
 }
 
-.resumeHeader {
-  padding-top: 20px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  color: black;
-}
-
 .skillsList {
   padding: 0;
   margin: 0;
